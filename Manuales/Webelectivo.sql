@@ -27,7 +27,7 @@ DROP TABLE IF EXISTS `Usuario` ;
 SHOW WARNINGS;
 CREATE TABLE IF NOT EXISTS `Usuario` (
   `idUsuario` INT NOT NULL AUTO_INCREMENT,
-  `contraseña` VARCHAR(45) NOT NULL,
+  `pass` VARCHAR(45) NOT NULL,
   `curp` VARCHAR(18) NULL,
   `tipo` VARCHAR(1) NULL,
   `email` VARCHAR(45) NULL,
